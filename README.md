@@ -1,42 +1,42 @@
 # Pedro-Get-Started
 
-🚀 Pedro - Get Started! 🤖
-
 Welcome to the world of Pedro, the open-source robotics platform designed to make learning robotics, programming, and embedded electronics fun and accessible! Whether you’ve purchased a preassembled Pedro or you're building your own, here’s everything you need to get started.
 
 
 ---
 
-🛠️ What You Need
+# 🛠️ What You Need
 
-✅ If You Purchased a Preassembled Pedro:
+## ✅ If You Purchased a Preassembled Pedro:
 
-1x Pedro Robot (Rev3) with a 7.4V DC Battery
+<div align="left">
+    <img src="img/pedro_robot.png" width="50%">
+</div>
 
-Built-in modules: NRF24L01, ESP8266-01, Bluetooth HC-05, OLED 128x64
+- 1x Pedro Robot including:
+  - Rev2 or Rev3 Board 
+  - 7.4V DC Battery
+  - Modules: NRF24L01, OLED 128x64, ESP8266-01 (only Rev3), Bluetooth HC-05 (only Rev3)
+  - Micro USB cable
+- A PC with Arduino IDE installed
 
-A PC with Arduino IDE installed
+## ✅ If You’re Building Pedro Yourself:
 
+<div align="left">
+    <img src="img/pedro_3d_print_parts.png" width="50%">
+</div>
 
-🔨 If You’re Building Pedro Yourself:
-
-📌 3D-printed parts (available on GitHub)
-
-🔌 Pedro Rev3 PCB (Gerber files available on GitHub)
-
-⚙️ Servo motors (MG90S or compatible)
-
-📡 Electronic modules (NRF24L01, ESP8266-01, Bluetooth HC-05, OLED 128x64)
-
-🔋 7.4V DC battery & charger
-
-💻 A PC with Arduino IDE installed
-
-
+- 3D-printed parts (STL files availables on [Pedro GitHub Page](https://github.com/almtzr/Pedro/tree/main/stl/kickstarter_version))
+- Pedro Rev2 or Rev3 PCB (Gerber files available on [Pedro GitHub Page](https://github.com/almtzr/Pedro/tree/main/gerber))
+- Servo motors (MG90S 360° not 180°)
+- 7.4V DC Battery & charger
+- Modules: NRF24L01, OLED 128x64, ESP8266-01 (only Rev3), Bluetooth HC-05 (only Rev3)
+- Micro USB cable
+- A PC with Arduino IDE installed
 
 ---
 
-⚙️ 1. Assembling Pedro
+## ⚙️ 1. Assembling Pedro
 
 (If you have a preassembled Pedro, skip to Step 2)
 
@@ -51,7 +51,7 @@ A PC with Arduino IDE installed
 
 ---
 
-💻 2. Programming & Configuration
+## 💻 2. Programming & Configuration
 
 1️⃣ Install Required Software
 
@@ -93,7 +93,7 @@ Upload the firmware and test the movements 🎮
 
 ---
 
-🎮 3. Control Modes
+## 🎮 3. Control Modes
 
 Pedro can be controlled in three different ways:
 
@@ -106,7 +106,7 @@ Pedro can be controlled in three different ways:
 
 ---
 
-🔗 4. Resources & Community
+## 🔗 4. Resources & Community
 
 🔍 Full Documentation → Pedro GitHub
 📢 Join the Community → [Discord / Forum link]
