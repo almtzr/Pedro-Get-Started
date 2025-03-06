@@ -10,7 +10,7 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 ## ✅ If You Purchased a Preassembled Pedro:
 
 <div align="left">
-    <img src="img/pedro_robot.png" width="50%">
+    <img src="img/pedro_robot.jpg" width="50%">
 </div>
 
 - 1x Pedro Robot including:
