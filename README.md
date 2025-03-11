@@ -67,45 +67,23 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 ## 💻 2. Programming & Configuration
 
-1️⃣ Install Required Software
+### 1- Install Required Software
 
-Download Arduino IDE
+- Download Arduino IDE
+- Install the required libraries: Servo, Wire, Adafruit GFX, Adafruit SSD1306
 
-Install the required libraries: Servo, Wire, Adafruit GFX, Adafruit SSD1306
+### 2- Flash the Bootloader on the microcontroller ATmega32u4 (**This step is only necessary if you made the board yourself, otherwise skip it.**)
 
-
-2️⃣ Flash the Bootloader (If You Built Pedro Yourself)
-
-If you built your own PCB, it doesn’t have the correct bootloader yet. To make Pedro work with Arduino, you first need to flash the Arduino Pro Micro bootloader via the SPI pins.
+If you built your own PCB, the microcontroller ATmega32u4 doesn’t have the correct bootloader yet, it's delivered with the factory bootloader. To make Pedro work with Arduino, you first need to flash the Arduino Pro Micro bootloader using the SPI pins.
 
 📌 How to do it?
 
-1. Connect an Arduino Uno or an ISP programmer to Pedro’s SPI pins
-
-
-2. Upload the "Arduino as ISP" sketch to your Arduino Uno
-
-
-3. Select Arduino Pro Micro (ATmega32U4) as the target board
-
-
-4. Go to Tools > Burn Bootloader
-
-
+a. Connect an Arduino Uno or an ISP programmer to Pedro’s SPI pins
+b. Upload the "Arduino as ISP" sketch to your Arduino Uno
+c. Select Arduino Pro Micro (ATmega32U4) as the target board
+d. Go to Tools > Burn Bootloader
 
 🎯 Once done, disconnect the SPI wiring, plug Pedro into your PC via micro USB, open Arduino IDE, and check in "Tools > Port" to ensure the board is recognized.
-
-3️⃣ Flash Pedro’s Firmware
-
-Download Pedro’s firmware from GitHub
-
-Open Arduino IDE, select Arduino Pro Micro
-
-Upload the firmware and test the movements 🎮
-
-
-
----
 
 ## 🎮 3. Control Modes
 
@@ -117,19 +95,14 @@ Pedro can be controlled in three different ways:
 
 📌 Examples and code available on GitHub
 
-
----
-
 ## 🔗 4. Resources & Community
 
 🔍 Full Documentation → Pedro GitHub
-📢 Join the Community → [Discord / Forum link]
 🚀 Need help or want to improve Pedro? → Open an issue on GitHub
 
 Pedro is 100% open-source, meaning you’re free to explore, modify, and share your own improvements!
 
 🎉 Have fun & keep building awesome robots! 🤖
-
 
 ---
 
