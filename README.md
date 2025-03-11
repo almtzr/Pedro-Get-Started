@@ -40,16 +40,21 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 (If you have a preassembled Pedro, skip to Step 2)
 
-1️⃣ 3D print the parts (STL files available on GitHub)
-2️⃣ Assemble the components (no screws, no glue—just plug & play 🛠️)
-3️⃣ Attach the servo motors and connect them to the Pedro board
-4️⃣ Install the modules (NRF, ESP8266, Bluetooth, OLED)
-5️⃣ Plug in the battery and power on Pedro!
+| ![Pedro 1](img/pedro_how_to_build_1.png) | ![Pedro 2](img/pedro_how_to_build_2.png) | ![Pedro 3](img/pedro_how_to_build_3.png) |
+|---------------------------------------|---------------------------------------|---------------------------------------|
 
-🔗 Detailed guide and STL files available on GitHub
+| ![Pedro 4](img/pedro_how_to_build_4.png) | ![Pedro 5](img/pedro_how_to_build_5.png) | ![Pedro 6](img/pedro_how_to_build_6.png) |
+|---------------------------------------|---------------------------------------|---------------------------------------|
 
+| ![Pedro 7](img/pedro_how_to_build_7.png) | ![Pedro 8](img/pedro_how_to_build_8.png) | ![Pedro 9](img/pedro_how_to_build_9.png) |
+|---------------------------------------|---------------------------------------|---------------------------------------|
 
----
+| ![Pedro 7](img/pedro_how_to_build_10.png) | ![Pedro 8](img/pedro_how_to_build_11.png) | ![Pedro 9](img/pedro_how_to_build_12.png) |
+|---------------------------------------|---------------------------------------|---------------------------------------|
+
+| ![Pedro 7](img/pedro_how_to_build_13.png) | ![Pedro 8](img/pedro_how_to_build_14.png) | ![Pedro 9](img/pedro_how_to_build_15.png) |
+|---------------------------------------|---------------------------------------|---------------------------------------|
+
 
 ## 💻 2. Programming & Configuration
 
