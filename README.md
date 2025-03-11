@@ -1,4 +1,4 @@
-# Pedro-Get-Started
+# Pedro Get Started
 
 Welcome to the world of Pedro, the open-source robotics platform designed to make learning robotics, programming, and embedded electronics fun and accessible! Whether you’ve purchased a preassembled Pedro or you're building your own, here’s everything you need to get started.
 
