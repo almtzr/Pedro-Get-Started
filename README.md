@@ -40,21 +40,30 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 (If you have a preassembled Pedro, skip to Step 2)
 
-| ![Pedro 1](img/pedro_how_to_build_1.png) | ![Pedro 2](img/pedro_how_to_build_2.png) | ![Pedro 3](img/pedro_how_to_build_3.png) |
-|---------------------------------------|---------------------------------------|---------------------------------------|
+| ![Pedro 1](img/pedro_how_to_build_1.png) | ![Pedro 2](img/pedro_how_to_build_2.png) |
+|---------------------------------------|---------------------------------------|
 
-| ![Pedro 4](img/pedro_how_to_build_4.png) | ![Pedro 5](img/pedro_how_to_build_5.png) | ![Pedro 6](img/pedro_how_to_build_6.png) |
-|---------------------------------------|---------------------------------------|---------------------------------------|
+| ![Pedro 3](img/pedro_how_to_build_3.png)  | ![Pedro 4](img/pedro_how_to_build_4.png) |
+|---------------------------------------|---------------------------------------|
 
-| ![Pedro 7](img/pedro_how_to_build_7.png) | ![Pedro 8](img/pedro_how_to_build_8.png) | ![Pedro 9](img/pedro_how_to_build_9.png) |
-|---------------------------------------|---------------------------------------|---------------------------------------|
+| ![Pedro 5](img/pedro_how_to_build_5.png) | ![Pedro 6](img/pedro_how_to_build_6.png) | 
+|---------------------------------------|---------------------------------------|
 
-| ![Pedro 7](img/pedro_how_to_build_10.png) | ![Pedro 8](img/pedro_how_to_build_11.png) | ![Pedro 9](img/pedro_how_to_build_12.png) |
-|---------------------------------------|---------------------------------------|---------------------------------------|
+| ![Pedro 7](img/pedro_how_to_build_7.png) | ![Pedro 8](img/pedro_how_to_build_8.png) | 
+|---------------------------------------|---------------------------------------|
 
-| ![Pedro 7](img/pedro_how_to_build_13.png) | ![Pedro 8](img/pedro_how_to_build_14.png) | ![Pedro 9](img/pedro_how_to_build_15.png) |
-|---------------------------------------|---------------------------------------|---------------------------------------|
+| ![Pedro 9](img/pedro_how_to_build_9.png) | ![Pedro 10](img/pedro_how_to_build_10.png) |
+|---------------------------------------|---------------------------------------|
 
+| ![Pedro 11](img/pedro_how_to_build_11.png) | ![Pedro 12](img/pedro_how_to_build_12.png) |
+|---------------------------------------|---------------------------------------|
+
+| ![Pedro 11](img/pedro_how_to_build_13.png) | ![Pedro 12](img/pedro_how_to_build_14.png) |
+|---------------------------------------|---------------------------------------|
+
+<div align="center">
+    <img src="img/pedro_how_to_build_15.png" width="50%">
+</div>
 
 ## 💻 2. Programming & Configuration
 
