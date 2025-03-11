@@ -9,9 +9,9 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 ## ✅ If You Purchased a Preassembled Pedro:
 
-<div align="left">
-    <img src="img/pedro_robot.jpg" width="50%">
-</div>
+<!-- div align="left">
+    <img src="img/pedro_robot.jpg" width="100%">
+</div -->
 
 - 1x Pedro Robot including:
   - Rev2 or Rev3 Board 
@@ -23,7 +23,7 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 ## ✅ If You’re Building Pedro Yourself:
 
 <div align="left">
-    <img src="img/pedro_3d_print_parts.png" width="50%">
+    <img src="img/pedro_3d_print_parts.png" width="100%">
 </div>
 
 - 3D-printed parts (STL files availables on [Pedro GitHub Page](https://github.com/almtzr/Pedro/tree/main/stl/kickstarter_version))
@@ -43,7 +43,7 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 | ![Pedro 1](img/pedro_how_to_build_1.png) | ![Pedro 2](img/pedro_how_to_build_2.png) |
 |---------------------------------------|---------------------------------------|
 
-| ![Pedro 3](img/pedro_how_to_build_3.png)  | ![Pedro 4](img/pedro_how_to_build_4.png) |
+| ![Pedro 3](img/pedro_how_to_build_3.gif)  | ![Pedro 4](img/pedro_how_to_build_4.png) |
 |---------------------------------------|---------------------------------------|
 
 | ![Pedro 5](img/pedro_how_to_build_5.png) | ![Pedro 6](img/pedro_how_to_build_6.png) | 
