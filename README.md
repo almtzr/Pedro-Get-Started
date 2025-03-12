@@ -2,6 +2,9 @@
 
 Welcome to the world of Pedro, the open-source robotics platform designed to make learning robotics, programming, and embedded electronics fun and accessible! Whether you’ve purchased a preassembled Pedro or you're building your own, here’s everything you need to get started.
 
+<div align="left">
+    <img src="img/pedro_kickstarter.png" width="100%">
+</div>
 
 ---
 
@@ -9,9 +12,7 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 ## ✅ If You Purchased a Preassembled Pedro:
 
-<!-- div align="left">
-    <img src="img/pedro_robot.jpg" width="100%">
-</div -->
+
 
 - 1x Pedro Robot including:
   - Rev2 or Rev3 Board 
@@ -65,37 +66,42 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
     <img src="img/pedro_how_to_build_15.png" width="50%">
 </div>
 
-## 💻 2. Programming & Configuration
+## 2. Programming & Configuration
 
-### 1- Install Required Software
+### Install Required Software
 
-- Download Arduino IDE
+- Download [Arduino IDE](https://www.arduino.cc/en/software)
 - Install the required libraries: Servo, Wire, Adafruit GFX, Adafruit SSD1306
 
-### 2- Flash the Bootloader on the microcontroller ATmega32u4 (**This step is only necessary if you made the board yourself, otherwise skip it.**)
+### Flash the Bootloader on the microcontroller ATmega32u4 
+(**This step is only necessary if you made the your own Pedro board from [Gerber file](https://github.com/almtzr/Pedro/tree/main/gerber), otherwise skip it.**)
 
 If you built your own PCB, the microcontroller ATmega32u4 doesn’t have the correct bootloader yet, it's delivered with the factory bootloader. To make Pedro work with Arduino, you first need to flash the Arduino Pro Micro bootloader using the SPI pins.
 
 📌 How to do it?
 
-a. Connect an Arduino Uno or an ISP programmer to Pedro’s SPI pins
-b. Upload the "Arduino as ISP" sketch to your Arduino Uno
-c. Select Arduino Pro Micro (ATmega32U4) as the target board
-d. Go to Tools > Burn Bootloader
+- Connect an Arduino Uno or an ISP programmer to Pedro’s SPI pins
+- Upload the "Arduino as ISP" sketch to your Arduino Uno
+- Select Arduino Pro Micro (ATmega32U4) as the target board
+- Go to Tools > Burn Bootloader
 
 🎯 Once done, disconnect the SPI wiring, plug Pedro into your PC via micro USB, open Arduino IDE, and check in "Tools > Port" to ensure the board is recognized.
 
-## 🎮 3. Control Modes
+## 3. Control Modes
 
 Pedro can be controlled in three different ways:
 
-📡 WiFi (ESP8266-01) – Control Pedro via a web or mobile app
-🎮 Bluetooth (HC-05) – Use an Android/iOS app
-📻 Radio (NRF24L01) – Connect Pedro to another microcontroller
+- WiFi (ESP8266-01) – Control Pedro via a web or mobile app
+- Bluetooth (HC-05) – Use an Android/iOS app
+- Radio (NRF24L01) – Connect Pedro to another microcontroller
 
-📌 Examples and code available on GitHub
+📌 Examples and code available on the [Pedro GitHub Page](https://github.com/almtzr/Pedro/tree/main/code)
 
-## 🔗 4. Resources & Community
+<div align="center">
+    <img src="img/bluetooth_mode.gif" width="60%">
+</div>
+
+## 4. Resources & Community
 
 🔍 Full Documentation → Pedro GitHub
 🚀 Need help or want to improve Pedro? → Open an issue on GitHub
@@ -108,3 +114,35 @@ Pedro is 100% open-source, meaning you’re free to explore, modify, and share y
 
 This version keeps the content engaging, easy to read, and informative. Let me know if you need any adjustments! 🚀
 
+## Mapping Pedro Board & Arduino
+
+| Pedro Board         | Arduino Pin | Function                  |
+|---------------------|-------------|---------------------------|
+| Servo 1             | D5          | PWM Signal                |
+| Servo 2             | D6          | PWM Signal                |
+| Servo 3             | D9          | PWM Signal                |
+| Servo 4             | D10         | PWM Signal                |
+| Button 1  (Up)      | A0          | Select Servo              |
+| Button 2 (Right)    | A1          | Servo Rotation (forward)  |
+| Button 3 (Left)     | A2          | Servo Rotation (backward) |
+| LED Servo 1         | D13         | Servo 1 Indicator         |
+| LED Servo 2         | D11         | Servo 2 Indicator         |
+| LED Servo 3         | D8          | Servo 3 Indicator         |
+| LED Servo 4         | D7          | Servo 4 Indicator         |
+| NRF24L01 CE         | D4          | SPI Enable (Radio)        |
+| NRF24L01 CSN        | D12         | SPI Chip Select (Radio)   |
+| OLED Display (SDA)  | D2          | I2C Data                  |
+| OLED Display (SCL)  | D3          | I2C Clock                 |
+| HC-05 TX (Rev3 Only)| D0          | UART RX (Bluetooth)       |
+| HC-05 RX (Rev3 Only)| D1          | UART TX (Bluetooth)       |
+| ESP8266 TX (Rev3 Only)| D0        | UART RX (WiFi)            |
+| ESP8266 RX (Rev3 Only)| D1        | UART TX (WiFi)            |
+| Switch 1 (Middle)   | N/A         | Select Mode Radio, Bluetooth, WiFi |
+| Switch 2 (Left)     | N/A         | Select Mode AT (HC-05)    |
+| Pin A3              | A3          | Free                      |
+| Pin A4              | A4          | Free                      |
+| Pin A5              | A5          | Free                      |
+| Pin RX              | RX          | Free                      |
+| Pin TX              | TX          | Free                      |
+
+---
