@@ -24,8 +24,12 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 ## ✅ If You’re Building Pedro Yourself:
 
 <div align="left">
-    <img src="img/pedro_3d_print_parts.png" width="100%">
+    <img src="img/pedro_3d_print_parts.png" width="70%">
 </div>
+
+<br>
+
+🛠️ What You Need:
 
 - 3D-printed parts (STL files availables on [Pedro GitHub Page](https://github.com/almtzr/Pedro/tree/main/stl/kickstarter_version))
 - Pedro Rev2 or Rev3 PCB (Gerber files available on [Pedro GitHub Page](https://github.com/almtzr/Pedro/tree/main/gerber))
@@ -37,7 +41,57 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 ---
 
-## ⚙️ 1. Assembling Pedro
+## 1. Programming the Pedro board
+
+### Install Required Software
+
+- Download [Arduino IDE](https://www.arduino.cc/en/software)
+- Install the required libraries: Servo, Wire, Adafruit GFX, Adafruit SSD1306
+
+### Flash the Bootloader on the microcontroller ATmega32u4 
+(**This step is only necessary if you made the your own Pedro board from [Gerber file](https://github.com/almtzr/Pedro/tree/main/gerber), otherwise skip it.**)
+
+If you built your own PCB, the microcontroller ATmega32u4 doesn’t have the correct bootloader yet, it's delivered with the factory bootloader. To make Pedro work with Arduino IDE, you first need to flash the Arduino Pro Micro bootloader into the Pedro board using the SPI pins.
+
+🛠️ What You Need:
+
+- your Pedro board (of course)
+- an Arduino Pro Micro
+- a Micro USB cable
+- some wires
+
+📌 How to do it?:
+
+- Open Arduino IDE
+- Connect the Arduino Pro Micro to the PC
+- Upload the "Arduino as ISP" sketch to the Arduino Pro Micro
+- Disconnect the Arduino Pro Micro from the PC
+- Connect the SPI pins of the Pedro board to the Arduino Pro Micro as shown:
+    - Pedro Board => Arduino Pro Micro
+    - GND         =>      GND (black)
+    - VCC         =>      VCC (red)
+    - SCK         =>      15 (orange)
+    - MI          =>      14 (purple)
+    - MO          =>      16 (green)
+    - RST         =>      10 (yellow)
+- Re-Connect the Arduino Pro Micro to the PC
+- Select Arduino Pro Micro (ATmega32U4) as the target board
+- Go to Tools > Burn Bootloader
+
+<div align="left">
+    <img src="img/pedro_bootloader_wiring.png" width="50%">
+</div>
+
+🎯 Once done, disconnect the SPI wiring, plug the Pedro board to the PC and check in "Tools > Port" to ensure the board is recognized by Arduino IDE.
+
+### Programming Board
+ 
+- Download the code pedro_basic.ino from the [Pedro Github Page](https://github.com/almtzr/Pedro/tree/main/code/basic)
+- Connect the Pedro Board to the PC
+- Select Arduino Pro Micro (ATmega32U4) as the target board
+- Upload the "pedro_basic.ino" sketch to the Pedro Board
+
+## ⚙️ 2. Assembling Pedro
 
 (If you have a preassembled Pedro, skip to Step 2)
 
@@ -65,27 +119,6 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 <div align="center">
     <img src="img/pedro_how_to_build_15.png" width="50%">
 </div>
-
-## 2. Programming & Configuration
-
-### Install Required Software
-
-- Download [Arduino IDE](https://www.arduino.cc/en/software)
-- Install the required libraries: Servo, Wire, Adafruit GFX, Adafruit SSD1306
-
-### Flash the Bootloader on the microcontroller ATmega32u4 
-(**This step is only necessary if you made the your own Pedro board from [Gerber file](https://github.com/almtzr/Pedro/tree/main/gerber), otherwise skip it.**)
-
-If you built your own PCB, the microcontroller ATmega32u4 doesn’t have the correct bootloader yet, it's delivered with the factory bootloader. To make Pedro work with Arduino, you first need to flash the Arduino Pro Micro bootloader using the SPI pins.
-
-📌 How to do it?
-
-- Connect an Arduino Uno or an ISP programmer to Pedro’s SPI pins
-- Upload the "Arduino as ISP" sketch to your Arduino Uno
-- Select Arduino Pro Micro (ATmega32U4) as the target board
-- Go to Tools > Burn Bootloader
-
-🎯 Once done, disconnect the SPI wiring, plug Pedro into your PC via micro USB, open Arduino IDE, and check in "Tools > Port" to ensure the board is recognized.
 
 ## 3. Control Modes
 
