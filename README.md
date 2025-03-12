@@ -8,8 +8,6 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 ---
 
-# 🛠️ What You Need
-
 ## ✅ If You Purchased a Pre-Assembled Pedro:
 
 When you buy a pre-assembled Pedro, it comes with the Pedro_Basic firmware already flashed. That means your robot is ready to use, plug & play. No setup required!
