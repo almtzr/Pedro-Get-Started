@@ -10,16 +10,30 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 # 🛠️ What You Need
 
-## ✅ If You Purchased a Preassembled Pedro:
+## ✅ If You Purchased a Pre-Assembled Pedro:
 
+When you buy a pre-assembled Pedro, it comes with the Pedro_Basic firmware already flashed. That means your robot is ready to use, plug & play—no setup required!
 
+### Getting Started with Pedro
 
-- 1x Pedro Robot including:
-  - Rev2 or Rev3 Board 
-  - 7.4V DC Battery
-  - Modules: NRF24L01, OLED 128x64, ESP8266-01 (only Rev3), Bluetooth HC-05 (only Rev3)
-  - Micro USB cable
-- A PC with Arduino IDE installed
+1- Turn on the robot using the ON/OFF button.
+2- Use button A0 to select the part of the robot you want to control. The selection order (from bottom to top) is:
+
+Base
+
+Shoulder
+
+Elbow
+
+Gripper
+
+3- Once selected, press A1 or A2 to move the chosen part.
+
+### Explore More Control Modes
+
+Pedro also supports Radio, Bluetooth, and Wi-Fi control. The code for each mode is available on the Pedro GitHub page.
+
+Feel free to customize the code to match your needs and make Pedro truly yours! 🚀
 
 ## ✅ If You’re Building Pedro Yourself:
 
