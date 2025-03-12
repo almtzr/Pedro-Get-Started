@@ -24,12 +24,15 @@ When you buy a pre-assembled Pedro, it comes with the Pedro_Basic firmware alrea
     <img src="img/pedro_parts.png" width="50%">
 </div>
 
-
 ### Explore More Control Modes
 
 Pedro also supports Radio, Bluetooth, and Wi-Fi control. The code for each mode is available on the Pedro GitHub page. Feel free to customize the code to match your needs and make Pedro truly yours! 🚀
 
-## ✅ If You’re Building Pedro Yourself:
+<div align="left">
+    <img src="img/dual-mode.gif" width="80%">
+</div>
+
+## ✅ If You Purchased a Pedro Full Kit or Are Building Pedro from scratch:
 
 <div align="left">
     <img src="img/pedro_3d_print_parts.png" width="70%">
