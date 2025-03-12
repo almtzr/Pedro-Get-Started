@@ -12,20 +12,20 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 ## ✅ If You Purchased a Pre-Assembled Pedro:
 
-When you buy a pre-assembled Pedro, it comes with the Pedro_Basic firmware already flashed. That means your robot is ready to use, plug & play—no setup required!
+When you buy a pre-assembled Pedro, it comes with the Pedro_Basic firmware already flashed. That means your robot is ready to use, plug & play. No setup required!
 
 ### Getting Started with Pedro
 
 1- Turn on the robot using the ON/OFF button.
 
-2- Use button A0 to select the part of the robot you want to control. The selection order (from bottom to top) is:
-
-- Base
-- Shoulder
-- Elbow
-- Gripper
+2- Use button A0 to select the part of the robot you want to control. The selection order (from bottom to top) is: Base -> Shoulder -> Elbow -> Gripper
 
 3- Once selected, press A1 or A2 to move the chosen part.
+
+<div align="left">
+    <img src="img/pedro_parts.png" width="50%">
+</div>
+
 
 ### Explore More Control Modes
 
