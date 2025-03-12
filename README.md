@@ -17,23 +17,19 @@ When you buy a pre-assembled Pedro, it comes with the Pedro_Basic firmware alrea
 ### Getting Started with Pedro
 
 1- Turn on the robot using the ON/OFF button.
+
 2- Use button A0 to select the part of the robot you want to control. The selection order (from bottom to top) is:
 
-Base
-
-Shoulder
-
-Elbow
-
-Gripper
+- Base
+- Shoulder
+- Elbow
+- Gripper
 
 3- Once selected, press A1 or A2 to move the chosen part.
 
 ### Explore More Control Modes
 
-Pedro also supports Radio, Bluetooth, and Wi-Fi control. The code for each mode is available on the Pedro GitHub page.
-
-Feel free to customize the code to match your needs and make Pedro truly yours! 🚀
+Pedro also supports Radio, Bluetooth, and Wi-Fi control. The code for each mode is available on the Pedro GitHub page. Feel free to customize the code to match your needs and make Pedro truly yours! 🚀
 
 ## ✅ If You’re Building Pedro Yourself:
 
