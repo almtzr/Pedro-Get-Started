@@ -2,8 +2,8 @@
 
 Welcome to the world of Pedro, the open-source robotics platform designed to make learning robotics, programming, and embedded electronics fun and accessible! Whether you’ve purchased a preassembled Pedro or you're building your own, here’s everything you need to get started.
 
-<div align="left">
-    <img src="img/pedro_kickstarter.png" width="100%">
+<div align="center">
+    <img src="img/pedro_kickstarter.png" width="80%">
 </div>
 
 ---
@@ -100,6 +100,7 @@ Pedro can be controlled in three different ways:
 <div align="center">
     <img src="img/bluetooth_mode.gif" width="60%">
 </div>
+
 
 ## 4. Resources & Community
 
