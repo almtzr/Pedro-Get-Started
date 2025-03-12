@@ -89,7 +89,7 @@ If you built your own PCB, the microcontroller ATmega32u4 doesn’t have the cor
 - Go to Tools > Burn Bootloader
 
 <div align="left">
-    <img src="img/pedro_bootloader_wiring.png" width="50%">
+    <img src="img/pedro_bootloader_wiring.png" width="80%">
 </div>
 
 🎯 Once done, disconnect the SPI wiring, plug the Pedro board to the PC and check in "Tools > Port" to ensure the board is recognized by Arduino IDE.
