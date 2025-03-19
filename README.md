@@ -7,7 +7,7 @@
 <br>
 
 Welcome to the world of Pedro, the open-source robotics platform designed to make learning robotics, programming, and embedded electronics fun and accessible! Whether you’ve purchased a preassembled Pedro or you're building your own, here’s everything you need to get started. <br>
-Whether you buy **a pre-assembled Pedro**, or **a full DIY kit**, or **a Pedro Board** it comes with the [**pedroDirectMode.ino**](https://github.com/almtzr/Pedro/tree/main/code/directMode) firmware already flashed. That means your robot is ready to use, plug & play. No setup required! You can control it in **Direct Mode** using the button A0 to select an axis and the buttons A1 and A2 to rotate it.
+Whether you buy **a pre-assembled Pedro**, or **a full DIY kit**, or **a Pedro Board** it comes with the [**pedroDirectMode.ino**](https://github.com/almtzr/Pedro/tree/main/code/directMode) firmware already flashed. You can control it in **Direct Mode** using the button A0 to select an axis and the buttons A1 and A2 to rotate it.
 
 <div align="left">
     <img src="img/pedro_direct_mode.gif" width="50%">
