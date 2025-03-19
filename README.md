@@ -6,7 +6,7 @@
 
 <br>
 
-Welcome to the world of Pedro, the open-source robotics platform designed to make learning robotics, programming, and embedded electronics fun and accessible! Whether you’ve purchased a preassembled Pedro or you're building your own, here’s everything you need to get started.
+Welcome to the world of Pedro, the open-source robotics platform designed to make learning robotics, programming, and embedded electronics fun and accessible! Whether you’ve purchased a preassembled Pedro or you're building your own, here’s everything you need to get started. <br>
 Whether you buy **a pre-assembled Pedro**, or **a full DIY kit**, or **a Pedro Board** it comes with the [**pedroDirectMode.ino**](https://github.com/almtzr/Pedro/tree/main/code/directMode) firmware already flashed. That means your robot is ready to use, plug & play. No setup required! You can control it in **Direct Mode** using the button A0 to select an axis and the buttons A1 and A2 to rotate it.
 
 <div align="left">
@@ -21,18 +21,24 @@ Whether you buy **a pre-assembled Pedro**, or **a full DIY kit**, or **a Pedro B
 (The selection order (from bottom to top) is: Base -> Shoulder -> Elbow -> Gripper)
 
 <div align="left">
-    <img src="img/pedro_parts.png" width="50%">
+    <img src="img/pedro_parts.png" width="30%">
 </div>
 
 ### Explore More Control Modes
 
-Pedro also supports Radio (NRF24L01), Bluetooth (HC-05), and Wi-Fi (ESP8266-01) control. The code for each mode is available on the [Pedro GitHub page](https://github.com/almtzr/Pedro/tree/main/code). Feel free to customize the code to match your needs and make Pedro truly yours! 🚀
+Pedro also supports control modes: 
+- Radio (NRF24L01)
+- Bluetooth (HC-05)
+- and Wi-Fi (ESP8266-01)
 
-<div align="center">
+The code for each mode is available on the [Pedro GitHub page](https://github.com/almtzr/Pedro/tree/main/code). <br>
+Feel free to customize the code to match your needs and make Pedro truly yours! 🚀
+
+<div align="left">
     <img src="img/bluetooth_mode.gif" width="60%">
 </div>
 
-### Programming the Pedro board
+### Programming Pedro
 
 - Download [Arduino IDE](https://www.arduino.cc/en/software)
 - Install the required libraries: Servo, Wire, Adafruit GFX, Adafruit SSD1306
@@ -41,11 +47,11 @@ Pedro also supports Radio (NRF24L01), Bluetooth (HC-05), and Wi-Fi (ESP8266-01) 
 - Upload your custom sketch to the Pedro Board or one of the sketch available on the [Pedro Github Page](https://github.com/almtzr/Pedro/tree/main/code/basic)
 ---
 
-## ✅ 1. If You Purchased a Pre-Assembled Pedro:
+## ✅ 1. If You Purchased a Pre-Assembled Pedro
 
 When you buy a pre-assembled Pedro, it comes with the pedroDirectMode.ino firmware already flashed. That means your robot is ready to use, plug & play. No setup required!
 
-## ✅ 2. If You Purchased A Pedro Full Kit:
+## ✅ 2. If You Purchased A Pedro Full Kit
 
 With the Pedro Full DIY Kit, you get all the necessary components to build the robot, including electronics and 3D-printed parts. You can go straight to the section **5. Assembling Pedro**.
 
@@ -53,22 +59,22 @@ With the Pedro Full DIY Kit, you get all the necessary components to build the r
     <img src="img/pedro_3d_print_parts.png" width="70%">
 </div>
 
-## ✅ 3. If You Purchased A Pedro Board Only:
+## ✅ 3. If You Purchased A Pedro Board Only
 
 🛠️ To complete your robot, you’ll need:
 
-✔️ To print all the Pedro parts (STL files availables on [Pedro GitHub Page](https://github.com/almtzr/Pedro/tree/main/stl/kickstarter_version))
-✔️ 2 ball bearings 8 x 22 x 7 mm
-✔️ 7.4V DC battery with 2 pins JST XH2.54 connector 
-✔️ 4x MS90 360° servo motors (not 180°)
-✔️ Micro USB cable
-✔️ (Options) Modules: NRF24L01 (Radio), HC-05 (Bluetooth), ESP8266-01 (WiFi), Screen OLED 128x64 0.96"
+- To print all the Pedro parts (STL files availables on [Pedro GitHub Page] (https://github.com/almtzr/Pedro/tree/main/stl/kickstarter_version))
+- 2 ball bearings 8 x 22 x 7 mm
+- 7.4V DC battery with 2 pins JST XH2.54 connector
+- 4x MS90 360° servo motors (not 180°)
+- Micro USB cable
+- (Options) Modules: NRF24L01 (Radio), HC-05 (Bluetooth), ESP8266-01 (WiFi), Screen OLED 128x64 0.96"
 
 And then go to the section **5. Assembling Pedro**.
 
 ## ✅ 4. If You Are Building Pedro From Scratch (Board Rev2 Only):
 
-Want to build Pedro from scratch? You can made your own Pedro Board by using the gerber files allows for the Rev2 board on the Pedro Github page. 
+Want to build Pedro from scratch? You can make your own Pedro Board by using Gerber files allows for the Rev2 board on the Pedro Github page. <br>
 When you get your own PCB board, the microcontroller ATmega32u4 doesn’t have the correct bootloader yet, it's delivered with the factory bootloader. To make Pedro work with Arduino IDE, you first need to flash the Arduino Pro Micro bootloader into the Pedro board using the SPI pins as described below.
 
 ### How To Flash the Bootloader on the microcontroller ATmega32u4 ?
@@ -101,11 +107,11 @@ When you get your own PCB board, the microcontroller ATmega32u4 doesn’t have t
 - Select Arduino Pro Micro (ATmega32U4) as the target board
 - Go to Tools > Burn Bootloader
 
+🎯 Once done, disconnect the SPI wiring, plug the Pedro board to the PC and check in "Tools > Port" to ensure the board is recognized by Arduino IDE.
+
 <div align="left">
     <img src="img/pedro_bootloader_wiring.png" width="80%">
 </div>
-
-🎯 Once done, disconnect the SPI wiring, plug the Pedro board to the PC and check in "Tools > Port" to ensure the board is recognized by Arduino IDE.
 
 ## ⚙️ 5. Assembling Pedro
 
@@ -178,4 +184,3 @@ This version keeps the content engaging, easy to read, and informative. Let me k
 | Pin RX              | RX          | Free                      |
 | Pin TX              | TX          | Free                      |
 
----
