@@ -31,11 +31,27 @@ Welcome to the world of Pedro, the open-source robotics platform designed to mak
 
 ## ✅ Step 1: 3D Printing
 
-Print all the Pedro Parts (STL files availables on [Pedro GitHub Page](https://github.com/almtzr/Pedro/tree/main/gerber))
+Print all the Pedro Parts (STL files availables on [Pedro GitHub Page](https://github.com/almtzr/Pedro/tree/main/gerber)) <br>
+Each part is oriented to simplify printing with minimal support.
+
 
 <div align="left">
     <img src="img/pedro_print.png" width="80%">
 </div>
+
+### Printing specifications:
+
+*base.stl, battery_cover.stl, support.stl, arm.stl* :
+- Infill: 60%
+- Support: No
+
+*elbow.stl, shoulder.stl, gripper.stl, gripper_tools.stl* :
+- Infill: 60%
+- Support: yes
+  
+*base_screws.stl, linker.stl, planet_system.stl* :
+- Infill: 100%
+- Support: No
 
 ## ✅ Step 2: Assembling 
 
@@ -92,7 +108,7 @@ Feel free to customize the code to match your needs and make Pedro truly yours! 
     <img src="img/bluetooth_mode.gif" width="60%">
 </div>
 
-## ✅ If you manufacture your own Robot Pedro board using the Gerber file.
+## ✅ If you manufacture your own Pedro board using the Gerber file.
 
 Want to build Pedro from scratch? You can make your own Pedro Board by using the [Gerber file](https://github.com/almtzr/Pedro/tree/main/gerber). <br>
 When you get your board, the microcontroller ATmega32u4 doesn’t have the correct bootloader yet, it's delivered with the factory bootloader. To make Pedro work with Arduino IDE, you first need to flash the Arduino Pro Micro bootloader into the Pedro board using the SPI pins as described below.
