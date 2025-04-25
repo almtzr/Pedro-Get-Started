@@ -63,7 +63,7 @@ With the Pedro Full DIY Kit, you get all the necessary components to build the r
 
 🛠️ To complete your robot, you’ll need:
 
-- To print all the Pedro parts (STL files availables on [Pedro GitHub Page] (https://github.com/almtzr/Pedro/tree/main/stl/kickstarter_version))
+- To print all the Pedro parts (STL files availables on [Pedro GitHub Page] (https://github.com/almtzr/Pedro/tree/main/stl))
 - 2 ball bearings 8 x 22 x 7 mm
 - 7.4V DC battery with 2 pins JST XH2.54 connector
 - 4x MS90 360° servo motors (not 180°)
